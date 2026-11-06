@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+  /* justify-content: center; */
+  flex-direction: row;
+}
+.row{
+    display: flex;
+    gap: 20px;
+}
+.card{
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px solid cornflowerblue;
+    border-radius: 12px;
+}
+img{
+    max-width: 100%;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
